@@ -18,8 +18,8 @@ function createTween(Object,setup,settings)
 	Anim:Play();
 	return Anim;
 end;
-    
-    function RUN_FUNCTION(name, extension, configOpt)
+
+function RUN_FUNCTION(name, extension, configOpt)
     local settings = configOpt;
     local PATH_URL = settings.URL or nil;
     local GAME_NAME = "";
@@ -46,8 +46,7 @@ end;
                 GAME_NAME = v.name
             end
         end
-     end
-end
+    end
     
     spawn(function()
         local BlueXLoader = Instance.new("ScreenGui")
