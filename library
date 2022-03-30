@@ -83,7 +83,7 @@ function Library:Create(name,logotext)
 
 	PlayerInfo.Name = "PlayerInfo"
 	PlayerInfo.Parent = SideBar
-	PlayerInfo.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+	PlayerInfo.BackgroundColor3 = Color3.fromRGB(0,255,255)
 	PlayerInfo.Position = UDim2.new(0.0430703014, 0, 0.912718177, 0)
 	PlayerInfo.Size = UDim2.new(0, 163, 0, 29)
 
@@ -119,7 +119,7 @@ function Library:Create(name,logotext)
 
 	Exit.Name = "Exit"
 	Exit.Parent = SideBar
-	Exit.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+	Exit.BackgroundColor3 = Color3.fromRGB(0,255,255)
 	Exit.Position = UDim2.new(0.0429999568, 0, 0.83048135, 0)
 	Exit.Size = UDim2.new(0, 163, 0, 28)
 	Exit.Font = Enum.Font.Gotham
@@ -138,7 +138,7 @@ function Library:Create(name,logotext)
 	
 	TabSection.Name = "TabSection"
 	TabSection.Parent = SideBar
-	TabSection.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+	TabSection.BackgroundColor3 = Color3.fromRGB(0,255,255)
 	TabSection.BorderSizePixel = 0
 	TabSection.Position = UDim2.new(0.0430703014, 0, 0.102244392, 0)
 	TabSection.Size = UDim2.new(0, 163, 0, 286)
@@ -146,7 +146,7 @@ function Library:Create(name,logotext)
 	ScrollTabFrame.Name = "ScrollTabFrame"
 	ScrollTabFrame.Parent = TabSection
 	ScrollTabFrame.Active = true
-	ScrollTabFrame.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+	ScrollTabFrame.BackgroundColor3 = Color3.fromRGB(0,255,255)
 	ScrollTabFrame.BackgroundTransparency = 1.000
 	ScrollTabFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	ScrollTabFrame.BorderSizePixel = 0
@@ -257,7 +257,7 @@ function Library:Create(name,logotext)
 		
 		TabButton.Name = "TabButton"
 		TabButton.Parent = ScrollTabFrame
-		TabButton.BackgroundColor3 = Color3.fromRGB(74, 71, 89)
+		TabButton.BackgroundColor3 = Color3.fromRGB(0,255,255)
 		TabButton.Size = UDim2.new(0, 142, 0, 69)
 		TabButton.Font = Enum.Font.Gotham
 		TabButton.Text = text
@@ -303,7 +303,7 @@ function Library:Create(name,logotext)
 
 			Label.Name = "Label"
 			Label.Parent = Tab
-			Label.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+			Label.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Label.Size = UDim2.new(0, 328, 0, 29)
 
 			LabelUICorner.CornerRadius = UDim.new(0.100000001, 1)
@@ -312,7 +312,7 @@ function Library:Create(name,logotext)
 
 			LabelLabel.Name = "LabelLabel"
 			LabelLabel.Parent = Label
-			LabelLabel.BackgroundColor3 = Color3.fromRGB(176, 211, 255)
+			LabelLabel.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			LabelLabel.BackgroundTransparency = 1.000
 			LabelLabel.Position = UDim2.new(0.0253048409, 0, 0.0294126309, 0)
 			LabelLabel.Size = UDim2.new(0, 290, 0, 28)
@@ -339,7 +339,7 @@ function Library:Create(name,logotext)
 			local ButtonImage = Instance.new("ImageLabel")
 			Button.Name = "Button"
 			Button.Parent = Tab
-			Button.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+			Button.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Button.Position = UDim2.new(0, 0, 0.0874035954, 0)
 			Button.Size = UDim2.new(0, 328, 0, 29)
 			Button.Font = Enum.Font.SourceSans
@@ -353,7 +353,7 @@ function Library:Create(name,logotext)
 
 			ButtonLabel.Name = "ButtonLabel"
 			ButtonLabel.Parent = Button
-			ButtonLabel.BackgroundColor3 = Color3.fromRGB(176, 211, 255)
+			ButtonLabel.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			ButtonLabel.BackgroundTransparency = 1.000
 			ButtonLabel.Position = UDim2.new(0.0253048409, 0, 0.0294126309, 0)
 			ButtonLabel.Size = UDim2.new(0, 290, 0, 28)
@@ -377,7 +377,7 @@ function Library:Create(name,logotext)
 			local Line = Instance.new("Frame")
 			Line.Name = "Line"
 			Line.Parent = Tab
-			Line.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+			Line.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Line.Position = UDim2.new(0, 0, 0.174807191, 0)
 			Line.Size = UDim2.new(0, 328, 0, 3)
 
@@ -392,7 +392,7 @@ function Library:Create(name,logotext)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Tab
-			Toggle.BackgroundColor3 = Color3.fromRGB(102, 98, 122)
+			Toggle.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Toggle.Position = UDim2.new(0, 0, 0.0874035954, 0)
 			Toggle.Size = UDim2.new(0, 328, 0, 29)
 			Toggle.Font = Enum.Font.SourceSans
@@ -406,7 +406,7 @@ function Library:Create(name,logotext)
 
 			ToggleLabel.Name = "ToggleLabel"
 			ToggleLabel.Parent = Toggle
-			ToggleLabel.BackgroundColor3 = Color3.fromRGB(176, 211, 255)
+			ToggleLabel.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			ToggleLabel.BackgroundTransparency = 1.000
 			ToggleLabel.Position = UDim2.new(0.0253048409, 0, 0.0294126309, 0)
 			ToggleLabel.Size = UDim2.new(0, 290, 0, 28)
